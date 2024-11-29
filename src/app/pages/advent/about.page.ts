@@ -9,7 +9,7 @@ import PostAttributes from '../../shared/post-attributes';
   selector: 'ala-advent-about',
   standalone: true,
   template: `
-    <article>
+    <article class="bg-background">
       @if (aboutPost | async; as content) {
         <analog-markdown [content]="content.content" />
       }
