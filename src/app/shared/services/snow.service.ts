@@ -120,8 +120,8 @@ export class FallingSnowService {
     if (!this.canvas) return;
 
     const dpr = window.devicePixelRatio || 1;
-    const width = window.innerWidth;
-    const height = window.innerHeight;
+    const width = document.documentElement.clientWidth;
+    const height = document.documentElement.clientHeight;
 
     this.canvas.width = width * dpr;
     this.canvas.height = height * dpr;
