@@ -21,7 +21,7 @@ export const routeMeta: RouteMeta = {
   meta: [
     {
       name: 'description',
-      content: 'TODO Description', // todo
+      content: 'Celebrate the Angular.love Advent! Each day of December, revisit highlights from the Angular community—blog posts, meetup recordings, and insights from contributors who inspire us.',
     },
     {
       name: 'author',
@@ -29,15 +29,35 @@ export const routeMeta: RouteMeta = {
     },
     {
       property: 'og:title',
-      content: 'Angular.love Advent Day Home',
+      content: 'Angular.love Advent Event',
     },
     {
       property: 'og:description',
-      content: 'Angular.love Advent Day Home',
+      content: 'Join the Angular.love Advent event! Discover daily throwbacks to valuable content, discussions, and memories from the Angular community. Celebrate and reflect with us!',
     },
     {
       property: 'og:image',
-      content: 'todo', // todo
+      content: 'https://wp.angular.love/wp-content/uploads/2024/11/AL_Advent_callendar_2024.png',
+    },
+    {
+      property: 'og:url',
+      content: 'https://advent.angular.love/advent',
+    },
+    {
+      name: 'twitter:card',
+      content: 'summary_large_image',
+    },
+    {
+      name: 'twitter:title',
+      content: 'Angular.love Advent 2024',
+    },
+    {
+      name: 'twitter:description',
+      content: 'Rediscover Angular insights! Celebrate Angular.love Advent with daily highlights, blogs, and community contributions.',
+    },
+    {
+      name: 'twitter:image',
+      content: 'https://wp.angular.love/wp-content/uploads/2024/11/AL_Advent_callendar_2024.png',
     },
   ],
 };

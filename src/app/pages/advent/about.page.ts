@@ -24,11 +24,11 @@ export default class AboutAdventComponent {
 }
 
 export const routeMeta: RouteMeta = {
-  title: 'Angular.love Advent - About',
+  title: 'Angular.love Advent',
   meta: [
     {
       name: 'description',
-      content: 'TODO Description', // todo
+      content: 'Learn about Angular.love Advent 2024: a daily celebration of the Angular community, featuring highlights, reflections, and gratitude for contributors and creators.',
     },
     {
       name: 'author',
@@ -36,15 +36,35 @@ export const routeMeta: RouteMeta = {
     },
     {
       property: 'og:title',
-      content: 'Angular.love Advent Day Home',
+      content: 'About Angular.love Advent 2024',
     },
     {
       property: 'og:description',
-      content: 'Angular.love Advent Day Home',
+      content: 'Discover the story behind Angular.love Advent 2024! Join us in celebrating the creativity and passion of the Angular community with daily highlights and reflections.',
     },
     {
       property: 'og:image',
-      content: 'todo', // todo
+      content: 'https://wp.angular.love/wp-content/uploads/2024/11/AL_Advent_callendar_2024.png',
+    },
+    {
+      property: 'og:url',
+      content: 'https://advent.angular.love/advent/about',
+    },
+    {
+      name: 'twitter:card',
+      content: 'summary_large_image',
+    },
+    {
+      name: 'twitter:title',
+      content: 'About Angular.love Advent 2024',
+    },
+    {
+      name: 'twitter:description',
+      content: 'Angular.love Advent 2024: Celebrating the Angular community with daily highlights, blogs, and reflections. Learn about the event and join the journey!',
+    },
+    {
+      name: 'twitter:image',
+      content: 'https://wp.angular.love/wp-content/uploads/2024/11/AL_Advent_callendar_2024.png',
     },
   ],
 };

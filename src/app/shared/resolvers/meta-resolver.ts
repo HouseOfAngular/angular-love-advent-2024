@@ -41,5 +41,25 @@ export const postMetaResolver: ResolveFn<MetaTag[]> = (route) => {
       property: 'og:image',
       content: postAttributes.coverImage,
     },
+    {
+      property: 'og:url',
+      content: `https://advent.angular.love/advent/${postAttributes.slug}`,
+    },
+    {
+      name: 'twitter:card',
+      content: 'summary_large_image',
+    },
+    {
+      name: 'twitter:title',
+      content: 'Angular.love Advent 2024',
+    },
+    {
+      name: 'twitter:description',
+      content: postAttributes.description,
+    },
+    {
+      name: 'twitter:image',
+      content: postAttributes.coverImage,
+    },
   ];
 };
