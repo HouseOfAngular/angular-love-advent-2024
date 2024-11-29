@@ -15,8 +15,3 @@ angular.love Advent Calendar is a daily countdown to the holidays, where we spot
 This event isn’t just about looking back—it’s about strengthening the connections in our Angular community and celebrating the collective knowledge we’ve built together. Whether you’re a seasoned Angular pro or new to the ecosystem, this calendar is for you.
 
 Each day, we’ll bring you something meaningful to enjoy—a small gift of learning, sharing, and remembering.
-
-
-```typescript
-const x = () => 'asd'
-```
