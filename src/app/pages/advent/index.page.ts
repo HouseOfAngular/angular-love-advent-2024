@@ -1,12 +1,18 @@
 import { RouteMeta } from '@analogjs/router';
 import { Component } from '@angular/core';
 
+import { CalendarComponent } from '../../features';
+
 @Component({
   selector: 'ala-advent-home',
   standalone: true,
   template: `
-    Hello world!
+    <ala-calendar class="w-full max-w-5xl" />
   `,
+  imports: [CalendarComponent],
+  host: {
+    class: 'flex justify-center w-full',
+  },
 })
 export default class AdventIndexPage {}
 
