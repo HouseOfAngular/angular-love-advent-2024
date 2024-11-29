@@ -37,7 +37,7 @@ export const routeMeta: RouteMeta = {
     },
     {
       property: 'og:image',
-      content: 'https://wp.angular.love/wp-content/uploads/2024/11/AL_Advent_callendar_2024.png',
+      content: 'https://wp.angular.love/wp-content/uploads/2024/11/AL_Advent_callendar_1200x628.png',
     },
     {
       property: 'og:url',
@@ -57,7 +57,7 @@ export const routeMeta: RouteMeta = {
     },
     {
       name: 'twitter:image',
-      content: 'https://wp.angular.love/wp-content/uploads/2024/11/AL_Advent_callendar_2024.png',
+      content: 'https://wp.angular.love/wp-content/uploads/2024/11/AL_Advent_callendar_1200x628.png',
     },
   ],
 };
