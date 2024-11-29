@@ -11,7 +11,10 @@
     "start": "pnpm run dev",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "preview": "pnpm run build && wrangler pages dev",
+    "deploy": "pnpm run build && wrangler pages deploy",
+    "cf-typegen": "wrangler types"
   },
   "private": true,
   "dependencies": {
@@ -43,13 +46,16 @@
     "@analogjs/vitest-angular": "^1.9.4",
     "@angular/cli": "^18.0.0",
     "@angular/compiler-cli": "^18.0.0",
+    "@cloudflare/workers-types": "^4.20241127.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
     "autoprefixer": "^10.4.14",
+    "nitropack": "^2.10.4",
     "postcss": "^8.4.21",
     "prettier": "^3.4.1",
     "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwindcss": "^3.3.1",
     "typescript": "~5.4.2",
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "wrangler": "^3.91.0"
   }
 }

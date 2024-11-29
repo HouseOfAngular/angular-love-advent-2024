@@ -2,6 +2,13 @@
 
 import { defineConfig } from 'vite';
 import analog from '@analogjs/platform';
+import { Nitro } from 'nitropack';
+
+const devBindingsModule = async (nitro: Nitro) => {
+  if (nitro.options.dev) {
+    nitro.options.plugins.push('./src/dev-bindings.ts');
+  }
+};
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
@@ -13,11 +20,13 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     analog({
-      ssr: false,
-      static: true,
-      prerender: {
-        routes: [],
+      nitro: {
+        preset: "cloudflare-pages",
+        modules: [devBindingsModule],
       },
-    }),
+      prerender: {
+        routes: ['/']
+      },
+    })
   ],
 }));
