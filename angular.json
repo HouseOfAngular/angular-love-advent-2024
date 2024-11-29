@@ -7,7 +7,7 @@
       "projectType": "application",
       "root": ".",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "ala",
       "architect": {
         "build": {
           "builder": "@analogjs/platform:vite",

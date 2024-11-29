@@ -1,3 +1,5 @@
+import { provideContent, withMarkdownRenderer } from '@analogjs/content';
+import { withShikiHighlighter } from '@analogjs/content/shiki-highlighter';
 import { provideFileRouter, requestContextInterceptor } from '@analogjs/router';
 import {
   provideHttpClient,
@@ -19,5 +21,6 @@ export const appConfig: ApplicationConfig = {
       withInterceptors([requestContextInterceptor]),
     ),
     provideClientHydration(),
+    provideContent(withMarkdownRenderer(), withShikiHighlighter()),
   ],
 };

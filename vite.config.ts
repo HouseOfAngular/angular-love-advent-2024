@@ -27,6 +27,9 @@ export default defineConfig(({ mode }) => ({
       prerender: {
         routes: ['/']
       },
+      content: {
+        highlighter: 'shiki',
+      },
     })
   ],
 }));
