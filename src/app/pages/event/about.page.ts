@@ -48,7 +48,7 @@ export const routeMeta: RouteMeta = {
     },
     {
       property: 'og:url',
-      content: 'https://advent.angular.love/advent/about',
+      content: 'https://advent.angular.love/event/about',
     },
     {
       name: 'twitter:card',

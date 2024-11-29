@@ -55,6 +55,6 @@ export class CalendarItemComponent {
   readonly content = input<ContentFile<PostAttributes> | null>();
 
   readonly link = computed(() =>
-    this.content() ? ['/advent/', this.content()?.attributes.slug] : [],
+    this.content() ? ['/event/', this.content()?.attributes.slug] : [],
   );
 }

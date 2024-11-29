@@ -9,7 +9,7 @@ import { lucideHouse, lucideInfo } from '@ng-icons/lucide';
   selector: 'ala-header',
   template: `
     <nav class="flex items-center justify-between">
-      <a class="flex items-center gap-2" [routerLink]="['/advent']">
+      <a class="flex items-center gap-2" [routerLink]="['/event']">
         <img
           src="angular-love-logo.webp"
           alt="Home Page"
@@ -20,13 +20,13 @@ import { lucideHouse, lucideInfo } from '@ng-icons/lucide';
       </a>
 
       <section class="flex gap-4">
-        <a class="flex items-center gap-2" [routerLink]="['/advent']">
-          <ng-icon name="lucideHouse" class="" />
+        <a class="flex items-center gap-2" [routerLink]="['/event']">
+          <ng-icon name="lucideHouse" />
           Home
         </a>
 
-        <a class="flex items-center gap-2" [routerLink]="['/advent', 'about']">
-          <ng-icon name="lucideInfo" class="" />
+        <a class="flex items-center gap-2" [routerLink]="['/event', 'about']">
+          <ng-icon name="lucideInfo" />
           About
         </a>
       </section>

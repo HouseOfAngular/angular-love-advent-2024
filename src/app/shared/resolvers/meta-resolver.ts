@@ -43,7 +43,7 @@ export const postMetaResolver: ResolveFn<MetaTag[]> = (route) => {
     },
     {
       property: 'og:url',
-      content: `https://advent.angular.love/advent/${postAttributes.slug}`,
+      content: `https://advent.angular.love/event/${postAttributes.slug}`,
     },
     {
       name: 'twitter:card',
