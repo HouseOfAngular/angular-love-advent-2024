@@ -11,7 +11,7 @@ import {
   standalone: true,
   selector: 'ala-footer',
   template: `
-    <footer class="flex flex-col items-center justify-center gap-2 p-4">
+    <footer class="flex flex-col items-center justify-center gap-2">
       <strong>
         Made with
         <a class="text-primary underline" href="https://analogjs.org/">
