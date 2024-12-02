@@ -9,7 +9,9 @@ import { CalendarItemComponent } from './calendar-item.component';
   standalone: true,
   selector: 'ala-calendar',
   template: `
-    <div class="bg-background space-y-8 rounded-2xl p-6 shadow-lg">
+    <div
+      class="space-y-8 rounded-2xl bg-background p-1 shadow-lg md:p-3 lg:p-6"
+    >
       <h1
         class="bg-gradient-to-r from-[#0546FF] via-[#8514F5] to-[#FA2C04] bg-clip-text pb-2 text-center font-bold text-transparent"
       >
