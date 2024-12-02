@@ -1,5 +1,6 @@
-import {ResolveFn} from "@angular/router";
-import {injectActivePostAttributes} from "./meta-resolver";
+import { ResolveFn } from '@angular/router';
+
+import { injectActivePostAttributes } from './meta-resolver';
 
 export const postTitleResolver: ResolveFn<string> = (route) =>
-  injectActivePostAttributes(route).title;
+  `Angular.love Advent - ${injectActivePostAttributes(route).title}`;

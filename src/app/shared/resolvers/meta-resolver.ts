@@ -31,7 +31,7 @@ export const postMetaResolver: ResolveFn<MetaTag[]> = (route) => {
     },
     {
       property: 'og:title',
-      content: postAttributes.title,
+      content: `Angular.love Advent - ${postAttributes.title}`,
     },
     {
       property: 'og:description',
@@ -51,7 +51,7 @@ export const postMetaResolver: ResolveFn<MetaTag[]> = (route) => {
     },
     {
       name: 'twitter:title',
-      content: 'Angular.love Advent 2024',
+      content: `Angular.love Advent - ${postAttributes.title}`,
     },
     {
       name: 'twitter:description',
