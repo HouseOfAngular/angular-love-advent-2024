@@ -72,6 +72,10 @@ ul {
   @apply mb-3 ml-6 list-disc;
 }
 
+iframe {
+  @apply w-full md:w-auto aspect-video;
+}
+
 @layer base {
   * {
     @apply border-border;
