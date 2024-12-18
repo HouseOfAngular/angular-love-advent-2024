@@ -46,6 +46,10 @@ article a {
   @apply text-primary underline;
 }
 
+article pre.shiki {
+  @apply mb-4 overflow-x-auto rounded-2xl p-4;
+}
+
 hr {
   @apply my-6;
 }
@@ -73,7 +77,7 @@ ul {
 }
 
 iframe {
-  @apply w-full md:w-auto aspect-video;
+  @apply aspect-video w-full md:w-auto;
 }
 
 @layer base {
@@ -81,6 +85,6 @@ iframe {
     @apply border-border;
   }
   body {
-    @apply bg-background font-sans text-foreground antialiased w-screen overflow-x-hidden;
+    @apply w-screen overflow-x-hidden bg-background font-sans text-foreground antialiased;
   }
 }
