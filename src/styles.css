@@ -50,6 +50,10 @@ article pre.shiki {
   @apply mb-4 overflow-x-auto rounded-2xl p-4;
 }
 
+article blockquote {
+  @apply my-4 border-s-4 border-gray-300 bg-gray-50 p-4 italic dark:border-gray-500 dark:bg-gray-800;
+}
+
 hr {
   @apply my-6;
 }
