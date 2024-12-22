@@ -80,6 +80,10 @@ ul {
   @apply mb-3 ml-6 list-disc;
 }
 
+ol {
+  @apply mb-3 ml-6 list-decimal;
+}
+
 iframe {
   @apply aspect-video w-full md:w-auto;
 }
